@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:orientation="vertical" 
+    android:layout_width="match_parent" 
+    android:layout_height="match_parent"
+	>
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="60dp"
+		android:orientation="horizontal"
+		android:background="#ffffff"
+		>
+		<ImageView			
+				android:layout_width="150dp"
+				android:layout_height="wrap_content"
+				android:src="@drawable/logoImage"
+				/>
+    <Button
+		android:layout_marginTop="5dp"
+		android:text="REGISTER"		
+		android:layout_width="80dp"
+		android:layout_height="wrap_content"		
+		android:textColor="#ffff"	
+		android:id="@+id/btnRegisterID"
+		android:layout_marginLeft="5dp"
+		android:background="@drawable/button_background"
+		android:textSize="10dp"
+		/>
+	<Button
+		android:layout_marginTop="5dp"
+		android:text="LOGIN"		
+		android:layout_width="80dp"
+		android:layout_height="wrap_content"		
+		android:textColor="#ffff"	
+		android:id="@+id/btnLogin"
+		android:layout_marginLeft="5dp"
+		android:background="@drawable/button_background"
+		android:textSize="10dp"
+		/>
+		</LinearLayout>
+	
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="90dp"
+		android:orientation="vertical"
+		android:background="#428BCA"
+		>
+	<SearchView
+          android:id="@+id/mySearch"
+         android:layout_width="match_parent"
+		 android:layout_height="40dp"		
+	/> 		
+		<TextView
+		android:layout_marginTop="10dp"
+		android:text="Search by Spinner:- "
+		android:textSize="10dp"
+		android:layout_width="match_parent"
+		android:layout_height="15dp"		
+		android:background="#ffffff"
+		/>		
+		
+		 <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="fill_parent"
+        android:layout_height="30dp"
+        android:prompt="@string/search_job"
+    />
+</LinearLayout>
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:orientation="vertical"
+		>
+    <ListView
+        android:background="#97CBFF"    	
+		android:id="@+id/listViewID"
+		android:layout_width="match_parent"
+        android:layout_height="600dp"
+    />   
+   
+</LinearLayout>
+		
+</LinearLayout>

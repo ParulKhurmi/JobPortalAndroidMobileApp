@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" 	
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+	android:padding="10dp"
+	android:background="#97CBFF"
+	android:gravity="center">
+	
+	<TextView
+		android:text="Please fill the following :"		
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"		
+		android:textColor="#428BCA"	
+		android:id="@+id/lblfillform"
+		android:layout_marginLeft="20dp"
+		/>
+	<EditText 	
+		android:layout_marginTop="5dp"
+		android:paddingLeft="80dp"
+		android:hint="NAME"		
+		android:textSize="10dp"	
+		android:textColor="#428BCA"
+		android:textColorHint="#428BCA"
+		android:layout_width="match_parent"
+		android:layout_height="35dp"
+		android:id="@+id/txtNameID"
+		 android:background="@drawable/rounded_edittext"
+	/>
+	<EditText 	
+		android:layout_marginTop="5dp"
+		android:paddingLeft="80dp"
+		android:hint="AGE"		
+		android:textSize="10dp"	
+		android:textColor="#428BCA"
+		android:textColorHint="#428BCA"
+		android:layout_width="match_parent"
+		android:layout_height="35dp"
+		android:id="@+id/txtAgeID"
+		 android:background="@drawable/rounded_edittext"
+	/>
+	<EditText 	
+		android:layout_marginTop="5dp"
+		android:paddingLeft="80dp"
+		android:hint="EMAIL"		
+		android:textSize="10dp"	
+		android:textColor="#428BCA"
+		android:textColorHint="#428BCA"
+		android:layout_width="match_parent"
+		android:layout_height="35dp"
+		android:id="@+id/txtEmailID"
+		 android:background="@drawable/rounded_edittext"
+	/>
+	<EditText 	
+		android:layout_marginTop="5dp"		
+		android:paddingLeft="80dp"
+		android:hint="PASSWORD"	
+		android:textColor="#428BCA"
+		android:textColorHint="#428BCA"
+		android:textSize="10dp"			
+		android:layout_width="match_parent"
+		android:layout_height="35dp"
+		android:id="@+id/txtPasswordID"
+		 android:background="@drawable/rounded_edittext"
+	/>
+	<EditText 	
+		android:layout_marginTop="5dp"
+		android:paddingLeft="80dp"
+		android:hint="PHONE"		
+		android:textSize="10dp"	
+		android:textColor="#428BCA"
+		android:textColorHint="#428BCA"
+		android:layout_width="match_parent"
+		android:layout_height="35dp"
+		android:id="@+id/txtPhoneID"
+		 android:background="@drawable/rounded_edittext"
+	/>
+	<RadioGroup
+		  android:layout_marginTop="5dp"
+		  android:layout_width="fill_parent"
+		  android:layout_height="wrap_content"
+		  android:orientation="horizontal">
+		  <RadioButton android:id="@+id/radio_employee"
+			  android:layout_width="wrap_content"
+			  android:layout_height="wrap_content"
+			  android:textColor="#428BCA"
+			  android:text="Employee" />
+		  <RadioButton android:id="@+id/radio_employer"
+			  android:layout_width="wrap_content"
+			  android:layout_height="wrap_content"
+			   android:textColor="#428BCA"
+			  android:text="Employer" />
+		</RadioGroup>
+
+	<Button 
+		android:layout_marginTop="5dp"
+		android:text="REGISTER"		
+		android:textColor="#ffff"
+		android:layout_width="match_parent"
+		android:layout_height="35dp"
+		android:background="@drawable/button_background"
+		android:id="@+id/btnRegisterID"
+		/>	
+	
+</LinearLayout>

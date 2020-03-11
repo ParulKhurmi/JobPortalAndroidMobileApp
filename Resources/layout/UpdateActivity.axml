@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" 	
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+	android:padding="20dp"
+	android:background="#97CBFF"
+	android:gravity="center">
+	
+	<TextView
+		android:text="Please update the following :"		
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"		
+		android:textColor="#428BCA"	
+		android:id="@+id/lblupdateform"
+		android:layout_marginLeft="20dp"
+		
+	/>
+	<EditText 	
+		android:layout_marginTop="5dp"
+		android:paddingLeft="80dp"
+		android:hint="NAME"		
+		android:textSize="10dp"	
+		android:textColor="#428BCA"
+		android:textColorHint="#428BCA"
+		android:layout_width="match_parent"
+		android:layout_height="35dp"
+		android:id="@+id/txtUpdateNameID"
+		android:background="@drawable/rounded_edittext"
+	/>
+	<EditText 	
+		android:layout_marginTop="5dp"
+		android:paddingLeft="80dp"
+		android:hint="AGE"		
+		android:textSize="10dp"	
+		android:textColor="#428BCA"
+		android:textColorHint="#428BCA"
+		android:layout_width="match_parent"
+		android:layout_height="35dp"
+		android:id="@+id/txtUpdateAgeID"
+		android:background="@drawable/rounded_edittext"
+	/>
+	<EditText 	
+		android:layout_marginTop="5dp"
+		android:paddingLeft="80dp"
+		android:hint="EMAIL"		
+		android:textSize="10dp"	
+		android:textColor="#428BCA"
+		android:textColorHint="#428BCA"
+		android:layout_width="match_parent"
+		android:layout_height="35dp"
+		android:id="@+id/txtUpdateEmailID"
+		android:background="@drawable/rounded_edittext"
+	/>
+	<EditText 	
+		android:layout_marginTop="5dp"		
+		android:paddingLeft="80dp"
+		android:hint="PASSWORD"	
+		android:textColor="#428BCA"
+		android:textColorHint="#428BCA"
+		android:textSize="10dp"			
+		android:layout_width="match_parent"
+		android:layout_height="35dp"
+		android:id="@+id/txtUpdatePasswordID"
+		android:background="@drawable/rounded_edittext"
+	
+	/>
+	<EditText 	
+		android:layout_marginTop="5dp"
+		android:paddingLeft="80dp"
+		android:hint="PHONE"		
+		android:textSize="10dp"	
+		android:textColor="#428BCA"
+		android:textColorHint="#428BCA"
+		android:layout_width="match_parent"
+		android:layout_height="35dp"
+		android:id="@+id/txtUpdatePhoneID"
+		 android:background="@drawable/rounded_edittext"
+	/>
+	<Button 
+		android:layout_marginTop="10dp"
+		android:text="UPDATE"		
+		android:textColor="#ffff"
+		android:layout_width="match_parent"
+		android:layout_height="40dp"
+		android:background="@drawable/button_background"
+		android:id="@+id/btnUpdateID"
+		/>	
+	
+</LinearLayout>

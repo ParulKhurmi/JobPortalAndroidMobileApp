@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+	>
+	<ScrollView
+		 android:layout_width="match_parent"
+    android:layout_height="match_parent"
+		>
+		<LinearLayout
+			 android:orientation="vertical"
+			 android:layout_width="match_parent"
+		     android:layout_height="match_parent"
+			 android:background ="#97CBFF"	
+		     android:gravity="center">
+	<TextView
+		android:layout_marginTop="10dp"
+		android:text="Welcome "
+		android:textSize="30dp"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"		
+		android:textColor="#428BCA"	
+		android:id="@+id/lblwlcm"
+		android:layout_marginLeft="10dp"
+		/>
+	<TextView
+		android:layout_marginTop="10dp"		
+		android:textSize="15dp"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"		
+		android:textColor="#428BCA"	
+		android:id="@+id/lblurInfo"
+		android:layout_marginLeft="10dp"
+		/>
+	<Button 
+		android:layout_marginTop="10dp"
+		android:text="Edit your Information"		
+		android:textColor="#ffffff"
+		android:layout_width="200dp"
+		android:layout_height="30dp"
+		android:background="#428BCA"
+		android:id="@+id/btnEditID"
+		/>
+	<Button 
+		android:layout_marginTop="10dp"
+		android:text="Explore More"		
+		android:textColor="#ffffff"
+		android:layout_width="200dp"
+		android:layout_height="30dp"
+		android:background="#428BCA"
+		android:id="@+id/btnExploreJobsID"
+		/>
+	<ImageView			
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:src="@drawable/admin_pic"
+				/>
+			</LinearLayout>
+	</ScrollView>
+</LinearLayout>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" 	
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+	android:padding="20dp"
+	android:background="#97CBFF"
+	android:gravity="center">
+	
+	<TextView
+		android:text="Please Login by using your credentials:-"		
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"		
+		android:textColor="#428BCA"	
+		android:id="@+id/lblfrend"
+		android:layout_marginLeft="20dp"
+		/>
+	<EditText 	
+		android:layout_marginTop="20dp"
+		android:paddingLeft="80dp"
+		android:hint="USERNAME"		
+		android:textSize="10dp"	
+		android:textColor="#428BCA"
+		android:textColorHint="#428BCA"
+		android:layout_width="match_parent"
+		android:layout_height="40dp"
+		android:id="@+id/userNameID"
+		 android:background="@drawable/rounded_edittext"
+	/>
+	<EditText 	
+		android:layout_marginTop="10dp"		
+		android:paddingLeft="80dp"
+		android:hint="PASSWORD"	
+		android:textColor="#428BCA"
+		android:textColorHint="#428BCA"
+		android:textSize="10dp"			
+		android:layout_width="match_parent"
+		android:layout_height="40dp"
+		android:id="@+id/passwordID"
+		 android:background="@drawable/rounded_edittext"
+	/>
+
+	<Button 
+		android:layout_marginTop="10dp"
+		android:text="Login"
+		
+		android:textColor="#ffff"
+		android:layout_width="match_parent"
+		android:layout_height="40dp"
+		android:background="@drawable/button_background"
+		android:id="@+id/loginBtnID"
+		/>
+	
+	<Button
+		android:layout_marginTop="20dp"
+		android:text="REGISTER"		
+		android:layout_width="150dp"
+		android:layout_height="wrap_content"		
+		android:textColor="#ffff"	
+		android:id="@+id/btnRegisterID"
+		android:layout_marginLeft="10dp"
+		android:background="@drawable/button_background"
+		android:textSize="10dp"
+		/>
+</LinearLayout>
